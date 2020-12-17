@@ -1,12 +1,15 @@
 {
-  "name": "jsdoc",
+  "name": "javascript-docs",
   "version": "1.0.0",
   "description": "Primer proyecto aplicando JSDoc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "jsdoc -c jsdoc.json"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^3.6.6"
+  }
 }
