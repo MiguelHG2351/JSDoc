@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: arrays.js</title>
+    <title>JSDoc: Source: object.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: arrays.js</h1>
+    <h1 class="page-title">Source: object.js</h1>
 
     
 
@@ -29,25 +29,41 @@
             <pre class="prettyprint source linenums"><code>//@ts-check
 
 /**
- * Edades
- * @type {array}
+ * Person Object
+ * @type {Object}
  */
 
-let age = [25, 21, 12]
+ const person = {
+    id: 1,
+    fistName: "Josué",
+    lastname: "Miguel",
+    age: 30
+}
 
 /**
- * Arreglos de Números
- * @type {Array&lt;Number | object>}
+ * Person2 is Object
+ * @type {{id: number, fistName: string, lastName: string, age: number}}
  */
 
-let scores = [25, 21, 12, {}, [], true]
+ const person2 = {
+    id: 1,
+    fistName: "Josué",
+    lastName: "Miguel",
+    age: 30
+}
 
 /**
- * Arreglo de string's
- * @type {Array&lt;string>}
+ * Person3 is Object
+ * @type {{ id: number | string, fistName: string, lastName: string, age: number | string }}
  */
 
- const names = ["Miguel", "Angel"]</code></pre>
+ const person3 = {
+    id: 1,
+    fistName: "Josué",
+    lastName: "Miguel",
+    age: 30
+}
+</code></pre>
         </article>
     </section>
 
